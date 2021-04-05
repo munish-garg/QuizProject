@@ -5,29 +5,37 @@
 }
 
 header nav{
-    width: 100vw;
-    height: 64px;
+    position: relative;
+    height: 65px;
     background-color: black;
 }
 
-#navigation-links a {
+#navigation-links{
+    height: 65px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#navigation-links li{
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#navigation-links a{
     color: white;
     text-decoration: none;
 }
 
-#navigation-links{
-    height: 64px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
+#navigation-links li:nth-of-type(1){
+    position: absolute;
+    left: 10px;
 }
 
-#navigation-links li{
-    margin-left: 10px;
-    padding: 5px;
-}
-
-#navigation-links li:nth-of-type(3){
-    margin-left: 80vw;
+#navigation-links li:nth-of-type(2){
+    position: absolute;
+    left: 35px;
 }
