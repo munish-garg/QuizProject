@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    width: 100vw;
+    height: 64px;
+    background-color: black;
+}
+
+#navigation-links a {
+    color: white;
+    text-decoration: none;
+}
+
+#navigation-links{
+    height: 64px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+#navigation-links li{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#navigation-links li:nth-of-type(3){
+    margin-left: 80vw;
+}
