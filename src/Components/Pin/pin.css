@@ -1,0 +1,27 @@
+#pin-number{
+    width: 360px;
+    margin: auto;
+}
+
+
+#pin-number input{
+    display: block;
+    /* margin: auto; */
+    width: 100%;
+}
+
+#pin-number button{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 360px){
+    #pin-number{
+        width: 100%;
+    }
+}
+
+#pin-number input:focus{
+    outline: none;
+}
